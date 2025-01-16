@@ -1,0 +1,95 @@
+{
+  "date_and_time": "2025-01-15-16-41-12",
+  "samples": 5,
+  "correlation_results": {
+    "S": {
+      "pearson": {
+        "correlation": NaN,
+        "p_value": NaN
+      },
+      "spearman": {
+        "correlation": NaN,
+        "p_value": NaN
+      }
+    },
+    "NS": {
+      "pearson": {
+        "correlation": NaN,
+        "p_value": NaN
+      },
+      "spearman": {
+        "correlation": NaN,
+        "p_value": NaN
+      }
+    },
+    "IR": {
+      "pearson": {
+        "correlation": NaN,
+        "p_value": NaN
+      },
+      "spearman": {
+        "correlation": NaN,
+        "p_value": NaN
+      }
+    }
+  },
+  "human_scores": [
+    {
+      "S": 4,
+      "NS": 14,
+      "IR": 8
+    },
+    {
+      "S": 11,
+      "NS": 10,
+      "IR": 10
+    },
+    {
+      "S": 0,
+      "NS": 16,
+      "IR": 2
+    },
+    {
+      "S": 4,
+      "NS": 28,
+      "IR": 3
+    },
+    {
+      "S": 5,
+      "NS": 21,
+      "IR": 10
+    }
+  ],
+  "perplexity_scores": [
+    {
+      "S": 0,
+      "NS": 0,
+      "IR": 0,
+      "atomic_facts": []
+    },
+    {
+      "S": 0,
+      "NS": 0,
+      "IR": 0,
+      "atomic_facts": []
+    },
+    {
+      "S": 0,
+      "NS": 0,
+      "IR": 0,
+      "atomic_facts": []
+    },
+    {
+      "S": 0,
+      "NS": 0,
+      "IR": 0,
+      "atomic_facts": []
+    },
+    {
+      "S": 0,
+      "NS": 0,
+      "IR": 0,
+      "atomic_facts": []
+    }
+  ]
+}

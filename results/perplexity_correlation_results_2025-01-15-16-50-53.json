@@ -1,0 +1,192 @@
+{
+  "date_and_time": "2025-01-15-16-50-53",
+  "samples": 3,
+  "correlation_results": {
+    "S": {
+      "pearson": {
+        "correlation": -0.4888486560872005,
+        "p_value": 0.6748340540320988
+      },
+      "spearman": {
+        "correlation": -0.5,
+        "p_value": 0.6666666666666667
+      }
+    },
+    "NS": {
+      "pearson": {
+        "correlation": -0.5315540694532028,
+        "p_value": 0.6432164745145343
+      },
+      "spearman": {
+        "correlation": -0.5,
+        "p_value": 0.6666666666666667
+      }
+    },
+    "IR": {
+      "pearson": {
+        "correlation": -0.9707253433941508,
+        "p_value": 0.15442095831126715
+      },
+      "spearman": {
+        "correlation": -0.8660254037844387,
+        "p_value": 0.3333333333333332
+      }
+    }
+  },
+  "human_scores": [
+    {
+      "S": 4,
+      "NS": 14,
+      "IR": 8
+    },
+    {
+      "S": 11,
+      "NS": 10,
+      "IR": 10
+    },
+    {
+      "S": 0,
+      "NS": 16,
+      "IR": 2
+    }
+  ],
+  "perplexity_scores": [
+    {
+      "S": 0,
+      "NS": 10,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Doug Sheehan is an American actor.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan is best known for his role as Ben Gibson in the television drama series Knots Landing.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan appeared in the film The Big Easy.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan appeared in the film The Last Boy Scout.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan appeared in the television show NYPD Blue.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan appeared in the television show Beverly Hills, 90210.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan was born in Santa Monica, California, not Los Angeles, on April 27, 1949.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan attended the University of California, Los Angeles.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan received a Bachelor of Arts degree in Theatre Arts from the University of California, Los Angeles.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan has been married to Cate Abert since July 25, 1981.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 3,
+      "NS": 7,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Taral Hicks is an American singer and actress.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks was born in the Bronx, New York on September 21, 1974.",
+          "label": "S"
+        },
+        {
+          "text": "Taral Hicks is best known for her single 'Sentimental', which was on the soundtrack of the 1997 film, Money Talks.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks released the album This Time in 1997.",
+          "label": "S"
+        },
+        {
+          "text": "Taral Hicks released the album This Time Around in 2000.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film A Bronx Tale (1993).",
+          "label": "S"
+        },
+        {
+          "text": "Taral Hicks starred in the film New Jersey Drive (1995).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film Kingdom Come (2001).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks had guest appearances on the television show New York Undercover.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks had guest appearances on the television show Law & Order.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 8,
+      "NS": 0,
+      "IR": 1,
+      "atomic_facts": [
+        {
+          "text": "Chief Jones has worked in the public sector for over 20 years.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones has a long history of leading teams and organizations.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones is known for his strong work ethic.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones is committed to excellence.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones believes in the power of collaboration.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones advocates for diversity and inclusion.",
+          "label": "IR"
+        },
+        {
+          "text": "Chief Jones works to create an equitable and inclusive environment in his organizations.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones is passionate about making a positive impact in the world.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones uses his knowledge and skills to help others.",
+          "label": "S"
+        }
+      ]
+    }
+  ]
+}

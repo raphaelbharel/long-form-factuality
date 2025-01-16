@@ -1,0 +1,352 @@
+{
+  "date_and_time": "2025-01-15-16-43-12",
+  "samples": 5,
+  "correlation_results": {
+    "S": {
+      "pearson": {
+        "correlation": -0.5468197163353736,
+        "p_value": 0.34021615868193167
+      },
+      "spearman": {
+        "correlation": -0.22941573387056177,
+        "p_value": 0.7104817254267773
+      }
+    },
+    "NS": {
+      "pearson": {
+        "correlation": 0.7900189676294457,
+        "p_value": 0.11179658566809886
+      },
+      "spearman": {
+        "correlation": 0.6,
+        "p_value": 0.28475697986529375
+      }
+    },
+    "IR": {
+      "pearson": {
+        "correlation": NaN,
+        "p_value": NaN
+      },
+      "spearman": {
+        "correlation": NaN,
+        "p_value": NaN
+      }
+    }
+  },
+  "human_scores": [
+    {
+      "S": 4,
+      "NS": 14,
+      "IR": 8
+    },
+    {
+      "S": 11,
+      "NS": 10,
+      "IR": 10
+    },
+    {
+      "S": 0,
+      "NS": 16,
+      "IR": 2
+    },
+    {
+      "S": 4,
+      "NS": 28,
+      "IR": 3
+    },
+    {
+      "S": 5,
+      "NS": 21,
+      "IR": 10
+    }
+  ],
+  "perplexity_scores": [
+    {
+      "S": 0,
+      "NS": 8,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Doug Sheehan is not known for the role as Ben Galvin in Knots Landing.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan played Ben Gibson in Knots Landing.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan did not appear in The Big Easy or The Last Boy Scout.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan did not appear in NYPD Blue or Beverly Hills, 90210.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan was born on April 27, 1949, in Santa Monica, California.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan attended the University of California, but the specific details are not provided.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan was married to Cate Abert, not Lisa Cooper.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan died on June 29, 2024, in Big Horn, Wyoming.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 1,
+      "NS": 10,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Taral Hicks is an American singer and actress.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks was born in the Bronx, New York on September 21, 1974.",
+          "label": "S"
+        },
+        {
+          "text": "Taral Hicks is best known for her single 'Sentimental'.",
+          "label": "NS"
+        },
+        {
+          "text": "The single 'Sentimental' was on the soundtrack of the 1997 film, Money Talks.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks released the album This Time in 1997.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks released the album This Time Around in 2000.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film A Bronx Tale (1993).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film New Jersey Drive (1995).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film Kingdom Come (2001).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks had guest appearances on the television show New York Undercover.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks had guest appearances on the television show Law & Order.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 6,
+      "NS": 6,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Chief Jones is an experienced leader with a long history of success.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones has worked in the public sector for over 20 years.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones has led teams and organizations to achieve their goals.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones is known for his strong work ethic.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones is committed to excellence.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones has a unique perspective.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones believes in collaboration.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones believes in the power of working together to achieve more.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones is an advocate for diversity and inclusion.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones actively works to create an equitable and inclusive environment in his organizations.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones is passionate about making a positive impact in the world.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones uses his knowledge and skills to help others.",
+          "label": "S"
+        }
+      ]
+    },
+    {
+      "S": 0,
+      "NS": 17,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Joey D. Vieira is an award-winning writer, director and producer.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has built a career in film, television and new media.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira directed and produced the feature film 'The Perfect Game'.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira directed and produced the feature film 'The Perfect Game: A True Story'.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira directed and produced the feature film 'The Perfect Game: A Cinderella Story'.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira wrote and directed the television series 'The Adventures of Rocky and Bullwinkle'.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for CBS.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for NBC.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for Disney.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for HBO.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for MTV.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for Nickelodeon.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for the History Channel.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira has written and/or produced content for Netflix.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira was nominated for an Emmy for his work on 'The Adventures of Rocky and Bullwinkle'.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira was a finalist for the Humanitas Prize.",
+          "label": "NS"
+        },
+        {
+          "text": "Joey D. Vieira was a finalist for the Austin Film Festival\u2019s Screenwriting Award.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 0,
+      "NS": 15,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Lanny Flaherty is not the person described in the provided text.",
+          "label": "NS"
+        },
+        {
+          "text": "The Lanny Flaherty in the text was born on July 27, 1942, not October 2, 1973.",
+          "label": "NS"
+        },
+        {
+          "text": "Lanny Flaherty was an American actor.",
+          "label": "NS"
+        },
+        {
+          "text": "He was known for his roles in Signs, Miller's Crossing, and Men in Black\u00b3.",
+          "label": "NS"
+        },
+        {
+          "text": "He appeared in numerous television shows including The Equalizer, The Days and Nights of Molly Dodd, Lonesome Dove, and The Cosby Show.",
+          "label": "NS"
+        },
+        {
+          "text": "He had roles in films such as Natural Born Killers, Tom and Huck, Waterworld, Home Fries, and Bound By Honor.",
+          "label": "NS"
+        },
+        {
+          "text": "Lanny Flaherty attended the University of Southern Mississippi.",
+          "label": "NS"
+        },
+        {
+          "text": "He served in the U.S. Army in the 1960s as an MP stationed in Germany.",
+          "label": "NS"
+        },
+        {
+          "text": "He studied at Southern Methodist University, focusing on acting and playwriting.",
+          "label": "NS"
+        },
+        {
+          "text": "Lanny Flaherty moved to New York City in the mid-1970s as part of the Broadway cast of Of Mice and Men.",
+          "label": "NS"
+        },
+        {
+          "text": "He performed in several Broadway productions, including Sweet Bird of Youth, Inherit the Wind, Joe Turner's Come and Gone, and Requiem for a Heavyweight.",
+          "label": "NS"
+        },
+        {
+          "text": "He appeared in productions at the Actors Theatre of Louisville and the Steppenwolf Theatre.",
+          "label": "NS"
+        },
+        {
+          "text": "Lanny Flaherty wrote many plays, including Showdown at the Adobe Motel.",
+          "label": "NS"
+        },
+        {
+          "text": "He died on February 18, 2024, in Manhattan, New York City, New York, USA.",
+          "label": "NS"
+        },
+        {
+          "text": "He was survived by his daughter Sara Suzuki, her husband Ryosuke Suzuki, and twin granddaughters.",
+          "label": "NS"
+        }
+      ]
+    }
+  ]
+}

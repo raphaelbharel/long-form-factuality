@@ -719,6 +719,66 @@ class CorrelationVsFactscoreTest(absltest.TestCase):
     mock_print_info.assert_called_once()
     mock_print_divider.assert_called_once_with()
 
+  def test_compute_detailed_metrics(self) -> None:
+    """Test compute_detailed_metrics function."""
+    human_scores = [{
+        'atomic_facts': [
+            {'text': 'Fact 1', 'label': safe.SUPPORTED_LABEL},
+            {'text': 'Fact 2', 'label': safe.NOT_SUPPORTED_LABEL},
+            {'text': 'Fact 3', 'label': safe.IRRELEVANT_LABEL}
+        ]
+    }]
+    
+    perplexity_scores = [{
+        'atomic_facts': [
+            {'text': 'Fact 1', 'label': safe.SUPPORTED_LABEL},  # Agreement
+            {'text': 'Fact 2', 'label': safe.SUPPORTED_LABEL},  # Disagreement
+            {'text': 'Fact 3', 'label': safe.NOT_SUPPORTED_LABEL}  # Disagreement
+        ]
+    }]
+    
+    metrics = correlation_vs_factscore.compute_detailed_metrics(
+        human_scores, perplexity_scores
+    )
+    
+    # Test overall metrics
+    self.assertEqual(metrics['overall']['total_facts'], 3)
+    self.assertEqual(metrics['overall']['total_agreements'], 1)
+    self.assertEqual(metrics['overall']['agreement_rate'], 100/3)
+    
+    # Test per-category metrics for Supported
+    supported = metrics['per_category'][safe.SUPPORTED_LABEL]
+    self.assertEqual(supported['true_positives'], 1)
+    self.assertEqual(supported['false_positives'], 1)
+    self.assertEqual(supported['false_negatives'], 0)
+    self.assertEqual(supported['precision'], 0.5)
+    self.assertEqual(supported['recall'], 1.0)
+    self.assertAlmostEqual(supported['f1'], 2/3)
+    
+    # Test per-category metrics for Not Supported
+    not_supported = metrics['per_category'][safe.NOT_SUPPORTED_LABEL]
+    self.assertEqual(not_supported['true_positives'], 0)
+    self.assertEqual(not_supported['false_positives'], 1)
+    self.assertEqual(not_supported['false_negatives'], 1)
+    self.assertEqual(not_supported['precision'], 0)
+    self.assertEqual(not_supported['recall'], 0)
+    self.assertEqual(not_supported['f1'], 0)
+    
+    # Test per-category metrics for Irrelevant
+    irrelevant = metrics['per_category'][safe.IRRELEVANT_LABEL]
+    self.assertEqual(irrelevant['true_positives'], 0)
+    self.assertEqual(irrelevant['false_positives'], 0)
+    self.assertEqual(irrelevant['false_negatives'], 1)
+    self.assertEqual(irrelevant['precision'], 0)
+    self.assertEqual(irrelevant['recall'], 0)
+    self.assertEqual(irrelevant['f1'], 0)
+    
+    # Test disagreement analysis
+    self.assertEqual(len(metrics['disagreement_analysis']), 2)
+    self.assertEqual(metrics['disagreement_analysis'][0]['text'], 'Fact 2')
+    self.assertEqual(metrics['disagreement_analysis'][0]['human_label'], safe.NOT_SUPPORTED_LABEL)
+    self.assertEqual(metrics['disagreement_analysis'][0]['model_label'], safe.SUPPORTED_LABEL)
+
 
 if __name__ == '__main__':
   absltest.main()

@@ -1,0 +1,208 @@
+{
+  "date_and_time": "2025-01-15-16-48-16",
+  "samples": 3,
+  "correlation_results": {
+    "S": {
+      "pearson": {
+        "correlation": -0.6449020216370241,
+        "p_value": 0.553796335708422
+      },
+      "spearman": {
+        "correlation": -0.5,
+        "p_value": 0.6666666666666667
+      }
+    },
+    "NS": {
+      "pearson": {
+        "correlation": -0.45895686008263303,
+        "p_value": 0.6964464883043635
+      },
+      "spearman": {
+        "correlation": -0.5,
+        "p_value": 0.6666666666666667
+      }
+    },
+    "IR": {
+      "pearson": {
+        "correlation": -0.9707253433941508,
+        "p_value": 0.15442095831126715
+      },
+      "spearman": {
+        "correlation": -0.8660254037844387,
+        "p_value": 0.3333333333333332
+      }
+    }
+  },
+  "human_scores": [
+    {
+      "S": 4,
+      "NS": 14,
+      "IR": 8
+    },
+    {
+      "S": 11,
+      "NS": 10,
+      "IR": 10
+    },
+    {
+      "S": 0,
+      "NS": 16,
+      "IR": 2
+    }
+  ],
+  "perplexity_scores": [
+    {
+      "S": 1,
+      "NS": 11,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Doug Sheehan is an American actor.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan is best known for his role as Ben Gibson in the television drama series, Knots Landing.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan appeared in films such as 10 and Victor/Victoria.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan appeared in television shows such as General Hospital and Day by Day.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan was born on April 27, 1949.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan was born in Santa Monica, California, USA.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan attended the University of California, Los Angeles.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan received a Bachelor of Arts degree in Theatre Arts.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan was married to Cate Abert from July 25, 1981, until his death.",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan died on June 29, 2024, in Big Horn, Wyoming, USA.",
+          "label": "S"
+        },
+        {
+          "text": "Doug Sheehan's height was 6\u2032 1\u2033 (1.85 m).",
+          "label": "NS"
+        },
+        {
+          "text": "Doug Sheehan's parents were Mary Elizabeth Shackelford and James William Sheehan Sr.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 2,
+      "NS": 8,
+      "IR": 0,
+      "atomic_facts": [
+        {
+          "text": "Taral Hicks is an American singer and actress.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks was born in the Bronx, New York on September 21, 1974.",
+          "label": "S"
+        },
+        {
+          "text": "Taral Hicks is best known for her single 'Sentimental', which was on the soundtrack of the 1997 film, Money Talks.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks released the album This Time in 1997.",
+          "label": "S"
+        },
+        {
+          "text": "Taral Hicks released the album This Time Around in 2000.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film A Bronx Tale (1993).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film New Jersey Drive (1995).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks starred in the film Kingdom Come (2001).",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks had guest appearances on the television show New York Undercover.",
+          "label": "NS"
+        },
+        {
+          "text": "Taral Hicks had guest appearances on the television show Law & Order.",
+          "label": "NS"
+        }
+      ]
+    },
+    {
+      "S": 6,
+      "NS": 3,
+      "IR": 2,
+      "atomic_facts": [
+        {
+          "text": "Chief Jones is an experienced leader with a long history of success.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones has worked in the public sector for over 20 years.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones has led teams and organizations to achieve their goals.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones is known for his strong work ethic.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones is committed to excellence.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones has a unique perspective.",
+          "label": "S"
+        },
+        {
+          "text": "Chief Jones believes in the power of collaboration.",
+          "label": "IR"
+        },
+        {
+          "text": "Chief Jones advocates for diversity and inclusion.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones works to create an equitable and inclusive environment in his organizations.",
+          "label": "IR"
+        },
+        {
+          "text": "Chief Jones is passionate about making a positive impact in the world.",
+          "label": "NS"
+        },
+        {
+          "text": "Chief Jones uses his knowledge and skills to help others.",
+          "label": "S"
+        }
+      ]
+    }
+  ]
+}
