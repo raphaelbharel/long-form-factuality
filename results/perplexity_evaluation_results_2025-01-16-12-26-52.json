@@ -1,0 +1,2118 @@
+{
+  "date_and_time": "2025-01-16-12-26-52",
+  "samples": 5,
+  "detailed_metrics": {
+    "overall": {
+      "total_facts": 146,
+      "accuracy": 0.2945205479452055
+    },
+    "per_label": {
+      "S": {
+        "precision": 0.17475728155339806,
+        "recall": 0.75,
+        "f1": 0.28346456692913385,
+        "support": 24
+      },
+      "NS": {
+        "precision": 0.78125,
+        "recall": 0.2808988764044944,
+        "f1": 0.4132231404958678,
+        "support": 89
+      },
+      "IR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 33
+      }
+    },
+    "confusion_matrix": {
+      "true_labels": [
+        "S",
+        "S",
+        "NS",
+        "IR",
+        "IR",
+        "IR",
+        "S",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "S",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "IR",
+        "S",
+        "NS",
+        "NS",
+        "NS",
+        "IR",
+        "IR",
+        "NS",
+        "S",
+        "NS",
+        "S",
+        "IR",
+        "S",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "IR",
+        "IR",
+        "NS",
+        "IR",
+        "IR",
+        "S",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "S",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "NS",
+        "NS",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "S",
+        "S",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "S",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR"
+      ],
+      "predicted_labels": [
+        "S",
+        "S",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "IR",
+        "NS",
+        "NS",
+        "S",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "IR",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "IR",
+        "NS",
+        "NS",
+        "S",
+        "NS",
+        "S",
+        "IR",
+        "S",
+        "NS",
+        "IR",
+        "NS",
+        "S",
+        "IR",
+        "IR",
+        "NS",
+        "IR",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "S",
+        "IR",
+        "IR",
+        "NS",
+        "NS",
+        "S",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S"
+      ]
+    },
+    "disagreements": [
+      {
+        "text": "Ben Galvin is a character in Knots Landing.",
+        "human_label": "IR",
+        "model_label": "NS",
+        "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing."
+      },
+      {
+        "text": "Knots Landing is a hit television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing."
+      },
+      {
+        "text": "Knots Landing is a drama series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing."
+      },
+      {
+        "text": "He has appeared in The Big Easy.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "The Big Easy is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He has appeared in The Last Boy Scout.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "The Last Boy Scout is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He has appeared in NYPD Blue.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "NYPD Blue is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He has appeared in Beverly Hills, 90210.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "Beverly Hills, 90210 is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "Los Angeles is in California.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He was born in Los Angeles, California on August 24, 1956."
+      },
+      {
+        "text": "He was born on August 24, 1956.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "He was born in Los Angeles, California on August 24, 1956."
+      },
+      {
+        "text": "He received a Bachelor of Arts degree.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts."
+      },
+      {
+        "text": "His Bachelor of Arts degree is in Theatre Arts.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts."
+      },
+      {
+        "text": "She was born in the Bronx.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She was born in the Bronx, New York on September 21, 1974."
+      },
+      {
+        "text": "The Bronx is in New York.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She was born in the Bronx, New York on September 21, 1974."
+      },
+      {
+        "text": "\"Sentimental\" was on the soundtrack of a film.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks."
+      },
+      {
+        "text": "The film is called Money Talks.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks."
+      },
+      {
+        "text": "Money Talks was released in 1997.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks."
+      },
+      {
+        "text": "She has released two albums.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "She has released an album titled This Time.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "This Time Around was released in 2000.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "Hicks has starred in films.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "New Jersey Drive is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "New Jersey Drive was released in 1995.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "Kingdom Come is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "Kingdom Come was released in 2001.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "She has had guest appearances on New York Undercover.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "New York Undercover is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "She has had guest appearances on Law & Order.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "Law and Order is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "Chief Jones is an experienced leader.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Chief Jones is an experienced leader with a long history of success."
+      },
+      {
+        "text": "Chief Jones has a long history of success.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Chief Jones is an experienced leader with a long history of success."
+      },
+      {
+        "text": "He has worked in the public sector.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has worked in the public sector for over 20 years.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has led teams.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has led organizations.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has led teams and organizations to achieve their goals.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He is known for his strong work ethic.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective."
+      },
+      {
+        "text": "He is known for his commitment to excellence.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective."
+      },
+      {
+        "text": "He is known for his unique perspective.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective."
+      },
+      {
+        "text": "He is a strong believer in collaboration.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is a strong believer in collaboration and the power of working together to achieve more."
+      },
+      {
+        "text": "He is a strong believer in the power of working together to achieve more.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is a strong believer in collaboration and the power of working together to achieve more."
+      },
+      {
+        "text": "He is an advocate for diversity.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He is an advocate for inclusion.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He actively works to create an equitable environment in his organizations.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He actively works to create an inclusive environment in his organizations.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He is passionate about making a positive impact in the world.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others."
+      },
+      {
+        "text": "He is passionate about using his knowledge and skills to help others.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others."
+      },
+      {
+        "text": "Joey D. Vieira is an award-winning writer.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media."
+      },
+      {
+        "text": "Joey D. Vieira is an award-winning director.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media."
+      },
+      {
+        "text": "Joey D. Vieira is an award-winning producer.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media."
+      },
+      {
+        "text": "Joey D. Vieira has built a career in new media.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media."
+      },
+      {
+        "text": "His work includes directing feature films.",
+        "human_label": "S",
+        "model_label": "IR",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "His work includes producing feature films.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "The Perfect Game is a feature film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "The Perfect Game: A True Story is a feature film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "His work includes directing and producing The Perfect Game: A Cinderella Story.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "The Perfect Game: A Cinderella Story is a feature film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "His work includes directing television series.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "The Adventures of Rocky and Bullwinkle is a television series.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\""
+      },
+      {
+        "text": "He has written content for a variety of networks.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written content for a variety of platforms.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has produced content for a variety of platforms.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for CBS.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for NBC.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for Disney.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for HBO.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for MTV.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for Nickelodeon.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for the History Channel.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has written and/or produced content for Netflix.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix."
+      },
+      {
+        "text": "He has been honored with an Emmy nomination.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award."
+      },
+      {
+        "text": "His Emmy nomination was for his work on The Adventures of Rocky and Bullwinkle.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award."
+      },
+      {
+        "text": "He has been a finalist for the Humanitas Prize.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award."
+      },
+      {
+        "text": "He has been a finalist for the Austin Film Festival\u2019s Screenwriting Award.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award."
+      },
+      {
+        "text": "Lanny Flaherty is an American.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer."
+      },
+      {
+        "text": "One of his best known roles is in The Closer.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie."
+      },
+      {
+        "text": "The Closer is a television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie."
+      },
+      {
+        "text": "One of his best known roles is in Rizzoli & Isles.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie."
+      },
+      {
+        "text": "Rizzoli & Isles is a television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie."
+      },
+      {
+        "text": "One of his best known roles is in American Pie.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie."
+      },
+      {
+        "text": "American Pie is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie."
+      },
+      {
+        "text": "He has appeared in Without a Trace.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy."
+      },
+      {
+        "text": "He has appeared in The West Wing.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy."
+      },
+      {
+        "text": "He has appeared in CSI: NY.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy."
+      },
+      {
+        "text": "He has appeared in Grey's Anatomy.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy."
+      },
+      {
+        "text": "He has gone on to appear in a number of feature films.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "He has gone on to appear in American Pie.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "American Pie is a feature film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "He has gone on to appear in The Dukes of Hazzard.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "The Dukes of Hazzard is a feature film.",
+        "human_label": "IR",
+        "model_label": "NS",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "He has gone on to appear in Supercross.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "Supercross is a feature film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "He has gone on to appear in The Devil's Rejects.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "The Devil's Rejects is a feature film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects."
+      },
+      {
+        "text": "He has directed episodes of The Closer.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace."
+      },
+      {
+        "text": "The Closer is a television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace."
+      },
+      {
+        "text": "He has directed episodes of Rizzoli & Isles.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace."
+      },
+      {
+        "text": "Rizzoli & Isles is a television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace."
+      },
+      {
+        "text": "He has directed episodes of Without a Trace.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace."
+      },
+      {
+        "text": "Without a trace is a television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace."
+      }
+    ]
+  },
+  "results": [
+    {
+      "text": "Doug Sheehan is an American.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Doug Sheehan is an actor.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Doug Sheehan is best known for his role as Ben Galvin.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Ben Galvin is a character in Knots Landing.",
+      "human_label": "IR",
+      "perplexity_label": "NS",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Knots Landing is a hit television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Knots Landing is a drama series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in films.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in The Big Easy.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Big Easy is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in The Last Boy Scout.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Last Boy Scout is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in television shows.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in NYPD Blue.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "NYPD Blue is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in Beverly Hills, 90210.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Beverly Hills, 90210 is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He was born in Los Angeles.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Los Angeles is in California.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He was born on August 24, 1956.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Sheehan attended the University of California.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "California is in Los Angeles.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He received a Bachelor of Arts degree.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "His Bachelor of Arts degree is in Theatre Arts.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is married to Lisa Cooper.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "He has been married since 1984 to Lisa Cooper and has two children.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has been married since 1984.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "He has been married since 1984 to Lisa Cooper and has two children.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has two children.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "He has been married since 1984 to Lisa Cooper and has two children.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Taral Hicks is an American.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Taral Hicks is an American singer and actress.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Taral Hicks is a singer.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Taral Hicks is an American singer and actress.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Taral Hicks is an actress.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Taral Hicks is an American singer and actress.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She was born in the Bronx.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She was born in the Bronx, New York on September 21, 1974.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Bronx is in New York.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She was born in the Bronx, New York on September 21, 1974.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She was born on September 21, 1974.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "She was born in the Bronx, New York on September 21, 1974.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She is best known for her single.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Her single is called \"Sentimental.\".",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "\"Sentimental\" was on the soundtrack of a film.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "The film is called Money Talks.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Money Talks was released in 1997.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has released two albums.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has released an album titled This Time.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has released an album titled This Time Around.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "This Time was released in 1997.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "This Time Around was released in 2000.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Hicks has starred in films.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Hicks has starred in A Bronx Tale.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "A Bronx Tale is a film.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "A Bronx Tale was released in 1993.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Hicks has starred in New Jersey Drive.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "New Jersey Drive is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "New Jersey Drive was released in 1995.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Hicks has starred in Kingdom Come.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Kingdom Come is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Kingdom Come was released in 2001.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has had guest appearances on television shows.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has had guest appearances on New York Undercover.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "New York Undercover is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has had guest appearances on Law & Order.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Law and Order is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Chief Jones is an experienced leader.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Chief Jones is an experienced leader with a long history of success.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "Chief Jones has a long history of success.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Chief Jones is an experienced leader with a long history of success.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has worked in the public sector.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has worked in the public sector for over 20 years.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has led teams.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has led organizations.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has led teams and organizations to achieve their goals.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is known for his strong work ethic.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is known for his commitment to excellence.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is known for his unique perspective.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is a strong believer in collaboration.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is a strong believer in collaboration and the power of working together to achieve more.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is a strong believer in the power of working together to achieve more.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is a strong believer in collaboration and the power of working together to achieve more.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is an advocate for diversity.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is an advocate for inclusion.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He actively works to create an equitable environment in his organizations.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He actively works to create an inclusive environment in his organizations.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is passionate about making a positive impact in the world.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is passionate about using his knowledge and skills to help others.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "Joey D. Vieira is an award-winning writer.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "Joey D. Vieira is an award-winning director.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "Joey D. Vieira is an award-winning producer.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "Joey D. Vieira has built a career in film.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "Joey D. Vieira has built a career in television.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "Joey D. Vieira has built a career in new media.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes directing feature films.",
+      "human_label": "S",
+      "perplexity_label": "IR",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes producing feature films.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes directing and producing The Perfect Game.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Perfect Game is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes directing and producing The Perfect Game: A True Story.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Perfect Game: A True Story is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes directing and producing The Perfect Game: A Cinderella Story.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Perfect Game: A Cinderella Story is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes writing television series.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His work includes directing television series.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He wrote and directed The Adventures of Rocky and Bullwinkle.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Adventures of Rocky and Bullwinkle is a television series.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\"",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written content for a variety of networks.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written content for a variety of platforms.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has produced content for a variety of networks.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has produced content for a variety of platforms.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for CBS.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for NBC.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for Disney.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for HBO.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for MTV.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for Nickelodeon.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for the History Channel.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has written and/or produced content for Netflix.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has been honored with numerous awards.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has been honored with an Emmy nomination.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "His Emmy nomination was for his work on The Adventures of Rocky and Bullwinkle.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has been a finalist for the Humanitas Prize.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has been a finalist for the Austin Film Festival\u2019s Screenwriting Award.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "full_context": "Joey D. Vieira is an award-winning writer, director and producer who has built a career in film, television and new media. His work includes directing and producing the feature films \"The Perfect Game,\" \"The Perfect Game: A True Story\" and \"The Perfect Game: A Cinderella Story,\" as well as writing and directing the television series \"The Adventures of Rocky and Bullwinkle.\" He has also written and/or produced content for a variety of networks and platforms, including CBS, NBC, Disney, HBO, MTV, Nickelodeon, History Channel and Netflix. He has been honored with numerous awards, including an Emmy nomination for his work on \"The Adventures of Rocky and Bullwinkle,\" and has been a finalist for the Humanitas Prize and the Austin Film Festival\u2019s Screenwriting Award.",
+      "is_relevant": true
+    },
+    {
+      "text": "Lanny Flaherty was born on October 2, 1973.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Lanny Flaherty is an American.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Lanny Flaherty is an actor.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Lanny Flaherty is a director.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Lanny Flaherty is a producer.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "One of his best known roles is in The Closer.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Closer is a television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "One of his best known roles is in Rizzoli & Isles.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Rizzoli & Isles is a television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "One of his best known roles is in American Pie.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "American Pie is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in numerous movies.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in numerous television shows.",
+      "human_label": "S",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in Without a Trace.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in The West Wing.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in CSI: NY.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in Grey's Anatomy.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Flaherty began his acting career in 1995.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Flaherty began his career with a role in a television movie.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "The movie was called The Christmas Tree.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Christmas Tree was released in 1995.",
+      "human_label": "NS",
+      "perplexity_label": "NS",
+      "source_text": "Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has gone on to appear in a number of feature films.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has gone on to appear in American Pie.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "American Pie is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has gone on to appear in The Dukes of Hazzard.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Dukes of Hazzard is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "NS",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has gone on to appear in Supercross.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Supercross is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has gone on to appear in The Devil's Rejects.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Devil's Rejects is a feature film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has directed episodes of The Closer.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Closer is a television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has directed episodes of Rizzoli & Isles.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Rizzoli & Isles is a television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has directed episodes of Without a Trace.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    },
+    {
+      "text": "Without a trace is a television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "full_context": "Lanny Flaherty (born October 2, 1973) is an American actor, director and producer. He is best known for his roles in the television series The Closer, Rizzoli & Isles and the film American Pie. He has also appeared in numerous other movies and television shows including Without a Trace, The West Wing, CSI: NY and Grey's Anatomy. Flaherty began his acting career in 1995 with a role in the television movie The Christmas Tree. Since then he has gone on to appear in a number of feature films including American Pie, The Dukes of Hazzard, Supercross and The Devil's Rejects. He has also directed episodes of the television series The Closer, Rizzoli & Isles and Without a Trace.",
+      "is_relevant": true
+    }
+  ]
+}

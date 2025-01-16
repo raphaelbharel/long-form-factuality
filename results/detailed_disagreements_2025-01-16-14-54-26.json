@@ -1,0 +1,38 @@
+{
+  "date_and_time": "2025-01-16-14-54-26",
+  "total_disagreements": 4,
+  "disagreements": [
+    {
+      "text": "Doug Sheehan is an American.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Doug Sheehan is an actor.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in films.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in television shows.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    }
+  ]
+}

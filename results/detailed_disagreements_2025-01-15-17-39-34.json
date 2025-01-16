@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "total_cases": 7,
+    "date_generated": "2025-01-15-17-39-34",
+    "instructions": "For expert review: Please update status field with reviewed_correct/reviewed_incorrect"
+  },
+  "cases": [
+    {
+      "id": 1,
+      "fact": "He has worked in the public sector for over 20 years.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    },
+    {
+      "id": 2,
+      "fact": "He has led teams and organizations to achieve their goals.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    },
+    {
+      "id": 3,
+      "fact": "He is known for his strong work ethic.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    },
+    {
+      "id": 4,
+      "fact": "He is known for his commitment to excellence.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    },
+    {
+      "id": 5,
+      "fact": "He is known for his unique perspective.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    },
+    {
+      "id": 6,
+      "fact": "He is a strong believer in collaboration.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    },
+    {
+      "id": 7,
+      "fact": "He is passionate about making a positive impact in the world.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "status": "needs_review"
+    }
+  ]
+}

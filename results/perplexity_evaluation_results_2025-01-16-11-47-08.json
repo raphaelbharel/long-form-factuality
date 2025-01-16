@@ -1,0 +1,36 @@
+{
+  "date_and_time": "2025-01-16-11-47-08",
+  "samples": 0,
+  "detailed_metrics": {
+    "overall": {
+      "total_facts": 0,
+      "accuracy": 0
+    },
+    "per_label": {
+      "S": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "NS": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      },
+      "IR": {
+        "precision": 0,
+        "recall": 0,
+        "f1": 0,
+        "support": 0
+      }
+    },
+    "confusion_matrix": {
+      "true_labels": [],
+      "predicted_labels": []
+    },
+    "disagreements": []
+  },
+  "results": []
+}

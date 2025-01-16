@@ -1,0 +1,904 @@
+{
+  "date_and_time": "2025-01-16-11-48-42",
+  "samples": 3,
+  "detailed_metrics": {
+    "overall": {
+      "total_facts": 54,
+      "accuracy": 0.0
+    },
+    "per_label": {
+      "S": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 2
+      },
+      "NS": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 32
+      },
+      "IR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 20
+      }
+    },
+    "confusion_matrix": {
+      "true_labels": [
+        "IR",
+        "IR",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "IR",
+        "NS",
+        "S",
+        "S",
+        "IR",
+        "NS",
+        "IR",
+        "IR",
+        "NS",
+        "IR",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "IR",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS",
+        "NS"
+      ],
+      "predicted_labels": [
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "IR",
+        "NS",
+        "NS",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S",
+        "S"
+      ]
+    },
+    "disagreements": [
+      {
+        "text": "Ben Galvin is a character in Knots Landing.",
+        "human_label": "IR",
+        "model_label": "NS",
+        "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing."
+      },
+      {
+        "text": "Knots Landing is a hit television series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing."
+      },
+      {
+        "text": "Knots Landing is a drama series.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing."
+      },
+      {
+        "text": "He has appeared in The Big Easy.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "The Big Easy is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He has appeared in The Last Boy Scout.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "The Last Boy Scout is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He has appeared in NYPD Blue.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "NYPD Blue is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He has appeared in Beverly Hills, 90210.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "Beverly Hills, 90210 is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210."
+      },
+      {
+        "text": "He was born in Los Angeles.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He was born in Los Angeles, California on August 24, 1956."
+      },
+      {
+        "text": "Los Angeles is in California.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He was born in Los Angeles, California on August 24, 1956."
+      },
+      {
+        "text": "He was born on August 24, 1956.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He was born in Los Angeles, California on August 24, 1956."
+      },
+      {
+        "text": "Sheehan attended the University of California.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts."
+      },
+      {
+        "text": "He received a Bachelor of Arts degree.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts."
+      },
+      {
+        "text": "His Bachelor of Arts degree is in Theatre Arts.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts."
+      },
+      {
+        "text": "She was born in the Bronx.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She was born in the Bronx, New York on September 21, 1974."
+      },
+      {
+        "text": "The Bronx is in New York.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She was born in the Bronx, New York on September 21, 1974."
+      },
+      {
+        "text": "\"Sentimental\" was on the soundtrack of a film.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks."
+      },
+      {
+        "text": "The film is called Money Talks.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks."
+      },
+      {
+        "text": "Money Talks was released in 1997.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks."
+      },
+      {
+        "text": "She has released two albums.",
+        "human_label": "NS",
+        "model_label": "IR",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "She has released an album titled This Time.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "This Time was released in 1997.",
+        "human_label": "S",
+        "model_label": "NS",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "This Time Around was released in 2000.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She has released two albums, This Time (1997) and This Time Around (2000)."
+      },
+      {
+        "text": "Hicks has starred in New Jersey Drive.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "New Jersey Drive is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "New Jersey Drive was released in 1995.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "Hicks has starred in Kingdom Come.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "Kingdom Come is a film.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "Kingdom Come was released in 2001.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001)."
+      },
+      {
+        "text": "She has had guest appearances on New York Undercover.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "New York Undercover is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "She has had guest appearances on Law & Order.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "Law and Order is a television show.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order."
+      },
+      {
+        "text": "Chief Jones is an experienced leader.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Chief Jones is an experienced leader with a long history of success."
+      },
+      {
+        "text": "Chief Jones has a long history of success.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "Chief Jones is an experienced leader with a long history of success."
+      },
+      {
+        "text": "He has worked in the public sector.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has worked in the public sector for over 20 years.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has led teams.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has led organizations.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He has led teams and organizations to achieve their goals.",
+        "human_label": "IR",
+        "model_label": "S",
+        "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals."
+      },
+      {
+        "text": "He is known for his strong work ethic.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective."
+      },
+      {
+        "text": "He is known for his commitment to excellence.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective."
+      },
+      {
+        "text": "He is known for his unique perspective.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective."
+      },
+      {
+        "text": "He is a strong believer in collaboration.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is a strong believer in collaboration and the power of working together to achieve more."
+      },
+      {
+        "text": "He is a strong believer in the power of working together to achieve more.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is a strong believer in collaboration and the power of working together to achieve more."
+      },
+      {
+        "text": "He is an advocate for diversity.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He is an advocate for inclusion.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He actively works to create an equitable environment in his organizations.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He actively works to create an inclusive environment in his organizations.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations."
+      },
+      {
+        "text": "He is passionate about making a positive impact in the world.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others."
+      },
+      {
+        "text": "He is passionate about using his knowledge and skills to help others.",
+        "human_label": "NS",
+        "model_label": "S",
+        "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others."
+      }
+    ]
+  },
+  "results": [
+    {
+      "text": "Ben Galvin is a character in Knots Landing.",
+      "human_label": "IR",
+      "perplexity_label": "NS",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Knots Landing is a hit television series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Knots Landing is a drama series.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in The Big Easy.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Big Easy is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in The Last Boy Scout.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Last Boy Scout is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in NYPD Blue.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "NYPD Blue is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in Beverly Hills, 90210.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Beverly Hills, 90210 is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He was born in Los Angeles.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Los Angeles is in California.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He was born on August 24, 1956.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Sheehan attended the University of California.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He received a Bachelor of Arts degree.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "His Bachelor of Arts degree is in Theatre Arts.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "She was born in the Bronx.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She was born in the Bronx, New York on September 21, 1974.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Bronx is in New York.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She was born in the Bronx, New York on September 21, 1974.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "\"Sentimental\" was on the soundtrack of a film.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "The film is called Money Talks.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Money Talks was released in 1997.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has released two albums.",
+      "human_label": "NS",
+      "perplexity_label": "IR",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has released an album titled This Time.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "This Time was released in 1997.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "This Time Around was released in 2000.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She has released two albums, This Time (1997) and This Time Around (2000).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Hicks has starred in New Jersey Drive.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "New Jersey Drive is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "New Jersey Drive was released in 1995.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Hicks has starred in Kingdom Come.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Kingdom Come is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Kingdom Come was released in 2001.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001).",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has had guest appearances on New York Undercover.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "New York Undercover is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "She has had guest appearances on Law & Order.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Law and Order is a television show.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "full_context": "Taral Hicks is an American singer and actress. She was born in the Bronx, New York on September 21, 1974. She is best known for her single \"Sentimental,\" which was on the soundtrack of the 1997 film, Money Talks. She has released two albums, This Time (1997) and This Time Around (2000). Hicks has also starred in several films, including A Bronx Tale (1993), New Jersey Drive (1995), and Kingdom Come (2001). She has also had guest appearances on television shows such as New York Undercover and Law & Order.",
+      "is_relevant": true
+    },
+    {
+      "text": "Chief Jones is an experienced leader.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Chief Jones is an experienced leader with a long history of success.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "Chief Jones has a long history of success.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "Chief Jones is an experienced leader with a long history of success.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has worked in the public sector.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has worked in the public sector for over 20 years.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has led teams.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has led organizations.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has led teams and organizations to achieve their goals.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is known for his strong work ethic.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is known for his commitment to excellence.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is known for his unique perspective.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is known for his strong work ethic, commitment to excellence, and unique perspective.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is a strong believer in collaboration.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is a strong believer in collaboration and the power of working together to achieve more.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is a strong believer in the power of working together to achieve more.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is a strong believer in collaboration and the power of working together to achieve more.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is an advocate for diversity.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is an advocate for inclusion.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He actively works to create an equitable environment in his organizations.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He actively works to create an inclusive environment in his organizations.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is passionate about making a positive impact in the world.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    },
+    {
+      "text": "He is passionate about using his knowledge and skills to help others.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "full_context": "Chief Jones is an experienced leader with a long history of success. He has worked in the public sector for over 20 years, leading teams and organizations to achieve their goals. He is known for his strong work ethic, commitment to excellence, and unique perspective. He is a strong believer in collaboration and the power of working together to achieve more. He is an advocate for diversity and inclusion, and actively works to create an equitable and inclusive environment in his organizations. He is passionate about making a positive impact in the world and using his knowledge and skills to help others.",
+      "is_relevant": true
+    }
+  ]
+}

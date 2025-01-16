@@ -1,0 +1,46 @@
+{
+  "date_and_time": "2025-01-16-14-05-56",
+  "total_disagreements": 5,
+  "disagreements": [
+    {
+      "text": "He has appeared in films.",
+      "human_label": "S",
+      "perplexity_label": "NS",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Big Easy is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "He has appeared in The Last Boy Scout.",
+      "human_label": "NS",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "The Last Boy Scout is a film.",
+      "human_label": "IR",
+      "perplexity_label": "S",
+      "source_text": "He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    },
+    {
+      "text": "Los Angeles is in California.",
+      "human_label": "IR",
+      "perplexity_label": "NS",
+      "source_text": "He was born in Los Angeles, California on August 24, 1956.",
+      "full_context": "Doug Sheehan is an American actor best known for his role as Ben Galvin in the hit television drama series, Knots Landing. He has also appeared in films such as The Big Easy and The Last Boy Scout, and television shows such as NYPD Blue and Beverly Hills, 90210. He was born in Los Angeles, California on August 24, 1956. Sheehan attended the University of California, Los Angeles, where he received a Bachelor of Arts degree in Theatre Arts. He has been married since 1984 to Lisa Cooper and has two children.",
+      "is_relevant": true
+    }
+  ]
+}
